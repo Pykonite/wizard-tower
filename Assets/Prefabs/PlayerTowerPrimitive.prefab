@@ -49,10 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.EnemyInstancer
   boundsRadius: 6
-  spawnTimeMin: 2
-  spawnTimeMax: 5
   enemyTypes:
   - {fileID: 3745333484683760851, guid: 44274e7be2cdc9e43b38af2f2b72f344, type: 3}
+  player: {fileID: 6656200269852340311}
 --- !u!114 &6656200269852340311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,10 +64,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a172215c04e5405698a58ba588989cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInstance.Player
+  healthBar: {fileID: 0}
   health: 0
   maxHealth: 5
-  mana: 0
-  maxMana: 0
   round: 0
   gameOverScene: GameOver
 --- !u!58 &3511313703231590709
