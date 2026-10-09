@@ -5,7 +5,6 @@ namespace Enemies
     public class Enemy : MonoBehaviour
     {
         public new Transform transform;
-        public static readonly Vector2 Center = Vector2.zero;
         public float speed = 1;
 
         void Start()
@@ -15,7 +14,7 @@ namespace Enemies
 
         void Update()
         {
-            transform.position= Vector2.MoveTowards(transform.position, Center, speed * Time.deltaTime);
+            transform.position= Vector2.MoveTowards(transform.position, Vector2.zero, speed * Time.deltaTime);
         }
     }
 }
