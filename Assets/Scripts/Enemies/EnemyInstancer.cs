@@ -20,12 +20,7 @@ namespace Enemies
         private bool _isRunning;
         public TextMeshProUGUI waveCounter;
         // Temporary. Replace with hook from tutorial.
-        private void Start()
-        {
-            SpawnEnemies();
-        }
-
-        private void SpawnEnemies()
+        public void SpawnEnemies()
         {
             waveCounter.text = "Wave: " + player.round;
             for ( var i = 0; i < _groups; i++ )
@@ -51,7 +46,7 @@ namespace Enemies
                         break;
                 }
 
-                pos += Vector2.one * Random.Range(0, 3);
+                pos *= Random.Range(1, 1.2f);
                 var placed = new Vector2[GroupSize()];
                 var objects = new GameObject[placed.Length];
                 Debug.Log(placed .Length);

@@ -1,3 +1,4 @@
+using Enemies;
 using UnityEngine;
 
 public class Realter : MonoBehaviour
@@ -5,6 +6,7 @@ public class Realter : MonoBehaviour
     private int WalkLeft, WalkRight;
     public GameObject Text, Text2;
     public Animator animator;
+    public EnemyInstancer instancer;
     void Start()
     {
         WalkLeft = 1;
@@ -42,6 +44,7 @@ public class Realter : MonoBehaviour
     public void Finished()
     {
         Text2.SetActive(false);
+        instancer.SpawnEnemies();
         Destroy(gameObject);
     }
 }

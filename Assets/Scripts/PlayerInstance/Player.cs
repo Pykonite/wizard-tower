@@ -13,7 +13,7 @@ namespace PlayerInstance
         private void Start()
         {
             health = maxHealth;
-            round = 0;
+            round = 1;
             healthBar.SetMaxHealth(maxHealth);
         }
 
