@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
   life: 3
-  instDamage: 50
+  instDamage: 60
   tickDamage: 0
   spellType: 0
   collider2D: {fileID: 0}
