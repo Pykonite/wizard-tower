@@ -1253,7 +1253,7 @@ MonoBehaviour:
   spellone: {fileID: 6272482341089899380, guid: ef2b850f1d92d98459e21ba2b013a15b, type: 3}
   spelltwo: {fileID: 8843404486139391930, guid: 3ddb13706e70766429d9152d81ac3d8d, type: 3}
   spellthree: {fileID: 4772980875562024667, guid: 0ab93fae691b95848affba7eafdffeb4, type: 3}
-  spellfour: {fileID: 7158563056719045626, guid: b655ba7a94a0f4440a559163f4d699c5, type: 3}
+  spellfour: {fileID: 5992551145420568266, guid: 7b24aa9ed873edd489ef9b7e67cd4a6b, type: 3}
   spellfive: {fileID: 404433428043810984, guid: 1abfbf2ddbd27ae44ad0db77a9d755bb, type: 3}
   manaBar: {fileID: 1506092126}
   mana: 0
