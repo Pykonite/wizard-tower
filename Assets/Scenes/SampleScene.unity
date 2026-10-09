@@ -404,6 +404,40 @@ MonoBehaviour:
       m_Action: Five
       m_Flags: 0
     m_Flags: 0
+  up:
+    m_Name: Up
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: b7b875a2-dc7b-481b-902f-a1a06a151951
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a6892e92-9b9c-4c36-abfc-74aacc8fbf89
+      m_Path: <Mouse>/scroll/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
+    m_Flags: 0
+  down:
+    m_Name: Down
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: fa7acb71-c687-4e8e-b127-ab3981cc4487
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 09242a38-a327-40ef-bc58-7945bbd6a18f
+      m_Path: <Mouse>/scroll/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
+    m_Flags: 0
   spellone: {fileID: 486910190239023574, guid: c7754689de895964f9602b6d0411e248, type: 3}
   spelltwo: {fileID: 7158563056719045626, guid: b655ba7a94a0f4440a559163f4d699c5, type: 3}
   spellthree: {fileID: 6126964272246514999, guid: 3e4d8fd65f384f64a8d2f02d91704ea2, type: 3}

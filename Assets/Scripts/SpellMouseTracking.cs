@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class SpellMouseTracking : MonoBehaviour
 {
-    private Camera mainCamera;
+    private Camera _mainCamera;
 
     void Start()
     {
-        mainCamera = Camera.main;
+        _mainCamera = Camera.main;
     }
 
     void Update()
@@ -18,6 +19,6 @@ public class SpellMouseTracking : MonoBehaviour
 
     Vector2 GetMouseWorldPosition()
     {
-        return mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        return _mainCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
     }
 }
