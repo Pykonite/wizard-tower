@@ -27,7 +27,7 @@ public class SpellFunction : MonoBehaviour
     }
 
 
-    void CastSpell()
+    private void Start()
     {
         if (spellType == SpellType.Tick) return;
         foreach (var target in _collisions)

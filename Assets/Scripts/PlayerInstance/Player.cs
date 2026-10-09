@@ -1,7 +1,5 @@
-using System;
 using Enemies;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 
 namespace PlayerInstance
 {
@@ -9,14 +7,14 @@ namespace PlayerInstance
 
     public class Player : MonoBehaviour
     {
-        public TowerHealth healthbar;
+        public TowerHealth healthBar;
         public int health, maxHealth = 100, round;
         public string gameOverScene;
         private void Start()
         {
             health = maxHealth;
             round = 0;
-            healthbar.SetMaxHealth(maxHealth);
+            healthBar.SetMaxHealth(maxHealth);
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -29,7 +27,7 @@ namespace PlayerInstance
         void TakeDamage(int damage)
         {
             health -= damage;
-            healthbar.SetHealth(health);
+            healthBar.SetHealth(health);
         }
     }
 }

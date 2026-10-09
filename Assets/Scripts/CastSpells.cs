@@ -7,7 +7,7 @@ public class CastSpells : MonoBehaviour
     public ManaBar manaBar;
     public int mana, maxMana = 10;
     public static int Spell;
-    private float manaRegenTimer = 0;
+    private float _manaRegenTimer;
     public float manaRegenInterval;
     void Start()
     {
@@ -51,10 +51,10 @@ public class CastSpells : MonoBehaviour
             case 4: if (mana-2>=0) {Instantiate(spellfour, transform.position, transform.rotation); TakeMana(2);} break;
             case 5: if (mana-10>=0) {Instantiate(spellfive, transform.position, transform.rotation); TakeMana(10);} break;
         }
-        manaRegenTimer += Time.deltaTime;
-        if (manaRegenTimer >= manaRegenInterval)
+        _manaRegenTimer += Time.deltaTime;
+        if (_manaRegenTimer >= manaRegenInterval)
         {
-            manaRegenTimer = 0;
+            _manaRegenTimer = 0;
             if (mana < maxMana)
             {
                 mana++;

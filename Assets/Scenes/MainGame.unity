@@ -2486,7 +2486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6623890dd1d6449a7fa027c6201fa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShapeChange
-  Shape: {fileID: 1948556231}
+  shape: {fileID: 1948556231}
   zero: {fileID: -2413806693520163455, guid: 2d3918fc57da4b74d818bcff40d1379d, type: 3}
   one: {fileID: -6990163345289994092, guid: 506c29c3dccf8874e86991bb5e2d5359, type: 3}
   two: {fileID: -6737021603647523002, guid: 2986d150ef0f52f459d3ef42622f0af2, type: 3}
@@ -2577,6 +2577,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6656200269852340311, guid: 85aa02548bc7d6ae5babbaea20f69387, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1629038520}
     - target: {fileID: 6656200269852340311, guid: 85aa02548bc7d6ae5babbaea20f69387, type: 3}
       propertyPath: healthbar
       value: 
