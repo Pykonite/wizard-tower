@@ -10,12 +10,11 @@ namespace PlayerInstance
     public class Player : MonoBehaviour
     {
         public TowerHealth healthbar;
-        public int health, maxHealth = 100, mana, maxMana = 100, round;
+        public int health, maxHealth = 100, round;
         public string gameOverScene;
         private void Start()
         {
             health = maxHealth;
-            mana = maxMana;
             round = 0;
             healthbar.SetMaxHealth(maxHealth);
             GetComponent<Transform>().position = Vector3.zero;
