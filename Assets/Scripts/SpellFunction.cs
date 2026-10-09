@@ -9,28 +9,25 @@ public class SpellFunction : MonoBehaviour
     public float life, instDamage, tickDamage;
     private float _lifetime;
     public SpellType spellType;
-    public Rigidbody2D rb;
-    private readonly List<Enemy> _collisions = new List<Enemy>();
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.TryGetComponent(typeof(Enemy), out var appender))
-        {
-            _collisions.Add(appender as Enemy);
-        }
-    }
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.TryGetComponent(typeof(Enemy), out var appender))
-        {
-            _collisions.Remove(appender as Enemy);
-        }
-    }
+    public new Collider2D collider2D;
 
-
+    // ReSharper disable Unity.PerformanceAnalysis
+    private List<Enemy> _collisions()
+    {
+        var filter = new ContactFilter2D
+        {
+            useTriggers = true
+        };
+        var list = new List<Collider2D>();
+        collider2D.Overlap(filter, list);
+        return list.Select(collided => collided.gameObject.GetComponent<Enemy>()).ToList();
+    }
+    
     private void Start()
     {
+        collider2D = GetComponent<Collider2D>();
         if (spellType == SpellType.Tick) return;
-        foreach (var target in _collisions)
+        foreach (var target in _collisions().Where(target => target))
         {
             target.health -= instDamage;
         }
@@ -38,14 +35,9 @@ public class SpellFunction : MonoBehaviour
     void Update()
     {
         _lifetime += Time.deltaTime;
-        foreach (var target in _collisions.ToList())
+        foreach (var target in _collisions().Where(target => target))
         {
-            if (!target)
-            {
-                _collisions.Remove(target);
-                continue;
-            }
-            target.health -= tickDamage;
+            target.health -= tickDamage * Time.deltaTime;
         }
         if (_lifetime >= life)
         {
