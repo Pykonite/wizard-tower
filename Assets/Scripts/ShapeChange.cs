@@ -8,26 +8,15 @@ public class ShapeChange : MonoBehaviour
     void Update()
     {
         spell = CastSpells.Spell;
-        switch (spell)
+        Shape.sprite = spell switch
         {
-            case 0:
-                Shape.sprite = null;
-                break;
-            case 1:
-                Shape.sprite = one;
-                break;
-            case 2:
-                Shape.sprite = two;
-                break;
-            case 3:
-                Shape.sprite = three;
-                break;
-            case 4:
-                Shape.sprite = four;
-                break;
-            case 5:
-                Shape.sprite = five;
-                break;
-        }
+            0 => null,
+            1 => one,
+            2 => two,
+            3 => three,
+            4 => four,
+            5 => five,
+            _ => Shape.sprite
+        };
     }
 }
