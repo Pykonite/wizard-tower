@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3655299008607247595}
   - component: {fileID: 262159209599020659}
+  - component: {fileID: -3332306044063576115}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -90,6 +91,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-3332306044063576115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2179413794239822781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd31e653aec8fd4f98a2e2cf7919d10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TowerHealth
+  slider: {fileID: 262159209599020659}
 --- !u!1 &2719108899134383764
 GameObject:
   m_ObjectHideFlags: 0

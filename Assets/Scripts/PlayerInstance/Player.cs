@@ -1,7 +1,6 @@
-using System;
 using Enemies;
+using TowerHealth
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 
 namespace PlayerInstance
 {
@@ -17,7 +16,7 @@ namespace PlayerInstance
             health = maxHealth;
             mana = maxMana;
             round = 0;
-            healthbar.SetMaxHealth(maxHealth);
+         //   healthbar.SetMaxHealth(maxHealth);
             GetComponent<Transform>().position = Vector3.zero;
         }
 
@@ -31,7 +30,7 @@ namespace PlayerInstance
         void TakeDamage(int damage)
         {
             health -= damage;
-            healthbar.SetHealth(health);
+          //  healthbar.SetHealth(health);
         }
     }
 }

@@ -1,16 +1,21 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TowerHealth : MonoBehaviour
+namespace TowerHealth
 {
-    public Slider slider;
-    public void SetMaxHealth(int health)
+    public class TowerHealth : MonoBehaviour
     {
-        slider.maxValue = health;
-        slider.value = health;
-    }
-    public void SetHealth(int health)
-    {
-        slider.value = health;
+        public Slider slider;
+
+        public void SetMaxHealth(int health)
+        {
+            slider.maxValue = health;
+            slider.value = health;
+        }
+
+        public void SetHealth(int health)
+        {
+            slider.value = health;
+        }
     }
 }
