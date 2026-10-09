@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class SpellMouseTracking : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class SpellMouseTracking : MonoBehaviour
 
     void Update()
     {
-        transform.position = GetMouseWorldPosition();
+
     }
 
     Vector2 GetMouseWorldPosition()
