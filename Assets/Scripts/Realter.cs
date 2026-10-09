@@ -4,7 +4,7 @@ using UnityEngine;
 public class Realter : MonoBehaviour
 {
     private int WalkLeft, WalkRight;
-    public GameObject Text, Text2;
+    public GameObject Text, Text2, Text3;
     public Animator animator;
     public EnemyInstancer instancer;
     void Start()
@@ -44,7 +44,15 @@ public class Realter : MonoBehaviour
     public void Finished()
     {
         Text2.SetActive(false);
+        Text3.SetActive(true);
+        Invoke("HESAIDTHETHING", 2);
         instancer.SpawnEnemies();
+        transform.position = new Vector3(500, 500, 500);
+    }
+
+    public void HESAIDTHETHING()
+    {
+        Text3.SetActive(false);
         Destroy(gameObject);
     }
 }
