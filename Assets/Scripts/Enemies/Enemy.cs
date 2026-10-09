@@ -5,8 +5,7 @@ namespace Enemies
     public class Enemy : MonoBehaviour
     {
         public new Transform transform;
-        public float speed = 1;
-        public float health = 100;
+        public float speed, health, damage;
 
         void Start()
         {

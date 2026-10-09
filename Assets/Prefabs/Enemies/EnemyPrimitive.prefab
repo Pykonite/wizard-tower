@@ -108,6 +108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.Enemy
   transform: {fileID: 7544884857318967302}
   speed: 1
+  health: 5
+  damage: 1
 --- !u!58 &1405313658664514691
 CircleCollider2D:
   m_ObjectHideFlags: 0
