@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using PlayerInstance;
@@ -51,6 +50,8 @@ namespace Enemies
                 }
                 var placed = new Vector2[GroupSize()];
                 var objects = new GameObject[placed.Length];
+                Debug.Log(placed .Length);
+                Debug.Log(objects.Length);
                 for (var j = 0; j < objects.Length; j++)
                 {
                     var instance = EnemyType();
@@ -74,14 +75,10 @@ namespace Enemies
         }
         private void Update()
         {
-            if (_enemiesLeft is { Count: > 0 })
-            {
+            if (_enemiesLeft is { Count: > 0 }) 
                 foreach (var e in _enemiesLeft.ToList()
-                             .Where(e => !e.gameObject))
-                {
+                             .Where(e => !e.gameObject)) 
                     _enemiesLeft.Remove(e);
-                }
-            }
             else if (_isRunning)
             {
                 _isRunning = false;
@@ -99,12 +96,10 @@ namespace Enemies
                 {
                     if (i == j) continue;
                     var displacement = positions[i] - positions[j];
-                    if (displacement.magnitude <= SpacingMultiplier) 
-                    {
-                        positions[i] = new Vector2(
-                            Random.Range(0, SpacingMultiplier * positions.Length),
-                            Random.Range(0, SpacingMultiplier * positions.Length));
-                    }
+                    if (!(displacement.magnitude <= SpacingMultiplier)) continue;
+                    positions[i] = new Vector2(
+                        Random.Range(0, SpacingMultiplier * positions.Length),
+                        Random.Range(0, SpacingMultiplier * positions.Length));
                     break;
                 }
 
@@ -112,7 +107,7 @@ namespace Enemies
                     .Select(t => positions[i] - t)
                     .Any(displacement => displacement.magnitude <= SpacingMultiplier))
                 {
-                    return SpaceOut(positions, iter);
+                    return SpaceOut(positions, iter + 1);
                 }
             }
             return positions;
@@ -134,6 +129,7 @@ namespace Enemies
         // ReSharper disable Unity.PerformanceAnalysis
         private void RoundEnd()
         {
+            player.round += 1;
             switch (Random.Range(0, 3))
             {
                 case 0: _groupSize *= 1.15f; break;
