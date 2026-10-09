@@ -29,12 +29,12 @@ public class CastSpells : MonoBehaviour
         if (up.IsPressed())
         {
             Spell++;
-            if (Spell > 5) Spell = 1;
+            if (Spell > 5) Spell = 0;
         }
         if (down .IsPressed())
         {
             Spell--;
-            if (Spell < 1) Spell = 5;
+            if (Spell < 0) Spell = 5;
         }
         if (castSpellAction.WasPressedThisFrame()) switch (Spell)
         {
