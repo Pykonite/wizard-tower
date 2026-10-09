@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 93bebb54e0d5c6d40b5fcc42758f32c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7285763824170620367
+    second: LessDopeWizardTower_0
+  - first:
+      213: -5057809479280917584
+    second: LessDopeWizardTower_1
+  - first:
+      213: -7938836011885816639
+    second: LessDopeWizardTower_2
+  - first:
+      213: 4171083966086220595
+    second: LessDopeWizardTower_3
+  - first:
+      213: -7262339040084691005
+    second: LessDopeWizardTower_4
+  - first:
+      213: 445587767148422312
+    second: LessDopeWizardTower_5
+  - first:
+      213: 3579855042672467815
+    second: LessDopeWizardTower_6
+  - first:
+      213: -3174704396629911410
+    second: LessDopeWizardTower_7
+  - first:
+      213: 7417217530469813518
+    second: LessDopeWizardTower_8
+  - first:
+      213: -2490804602119107647
+    second: LessDopeWizardTower_9
+  - first:
+      213: -1185595382473626124
+    second: LessDopeWizardTower_10
+  - first:
+      213: -5159514793483123902
+    second: LessDopeWizardTower_11
+  - first:
+      213: 8363266961562331719
+    second: LessDopeWizardTower_12
+  - first:
+      213: -3957700013698123359
+    second: LessDopeWizardTower_13
+  - first:
+      213: 368695550758061953
+    second: LessDopeWizardTower_14
+  - first:
+      213: 8612018296064717450
+    second: LessDopeWizardTower_15
+  - first:
+      213: 3013710188447398643
+    second: LessDopeWizardTower_16
+  - first:
+      213: -3680297295552677679
+    second: LessDopeWizardTower_17
+  - first:
+      213: 7261789975839658010
+    second: LessDopeWizardTower_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LessDopeWizardTower_0
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 2770
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2bee4764c3ea90800000000000000
+      internalID: -7285763824170620367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_1
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 2779
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b38bd5731d0fc9b0800000000000000
+      internalID: -5057809479280917584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_2
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 2743
+        width: 81
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4977d75b693d190800000000000000
+      internalID: -7938836011885816639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_3
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2769
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b85ee84caa2e930800000000000000
+      internalID: 4171083966086220595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_4
+      rect:
+        serializedVersion: 2
+        x: 3025
+        y: 2768
+        width: 88
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7fc4dde1df63b90800000000000000
+      internalID: -7262339040084691005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_5
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2778
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a42421a6bb0f2600800000000000000
+      internalID: 445587767148422312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_6
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 2773
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f12e5c1333ea130800000000000000
+      internalID: 3579855042672467815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_7
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 2637
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88d00ceb2f21f3d0800000000000000
+      internalID: -3174704396629911410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_8
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 2634
+        width: 157
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d047dbb004fe660800000000000000
+      internalID: 7417217530469813518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_9
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2638
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb48c54962ee6dd0800000000000000
+      internalID: -2490804602119107647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_10
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 2639
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fde05cf74beb8fe0800000000000000
+      internalID: -1185595382473626124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_11
+      rect:
+        serializedVersion: 2
+        x: 2855
+        y: 2633
+        width: 83
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243c011b1a8b568b0800000000000000
+      internalID: -5159514793483123902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_12
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 2640
+        width: 100
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aeea5bdfa401470800000000000000
+      internalID: 8363266961562331719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_13
+      rect:
+        serializedVersion: 2
+        x: 3137
+        y: 2640
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9f6fb6ecc6319c0800000000000000
+      internalID: -3957700013698123359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_14
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 2633
+        width: 182
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187833566aedd1500800000000000000
+      internalID: 368695550758061953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_15
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 2636
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a823a180309048770800000000000000
+      internalID: 8612018296064717450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_16
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 2567
+        width: 1299
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faf166f279d2d920800000000000000
+      internalID: 3013710188447398643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_17
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 2502
+        width: 1304
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d870c6db15fcecc0800000000000000
+      internalID: -3680297295552677679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LessDopeWizardTower_18
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 2508
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a105a67228f07c460800000000000000
+      internalID: 7261789975839658010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LessDopeWizardTower_0: -7285763824170620367
+      LessDopeWizardTower_1: -5057809479280917584
+      LessDopeWizardTower_10: -1185595382473626124
+      LessDopeWizardTower_11: -5159514793483123902
+      LessDopeWizardTower_12: 8363266961562331719
+      LessDopeWizardTower_13: -3957700013698123359
+      LessDopeWizardTower_14: 368695550758061953
+      LessDopeWizardTower_15: 8612018296064717450
+      LessDopeWizardTower_16: 3013710188447398643
+      LessDopeWizardTower_17: -3680297295552677679
+      LessDopeWizardTower_18: 7261789975839658010
+      LessDopeWizardTower_2: -7938836011885816639
+      LessDopeWizardTower_3: 4171083966086220595
+      LessDopeWizardTower_4: -7262339040084691005
+      LessDopeWizardTower_5: 445587767148422312
+      LessDopeWizardTower_6: 3579855042672467815
+      LessDopeWizardTower_7: -3174704396629911410
+      LessDopeWizardTower_8: 7417217530469813518
+      LessDopeWizardTower_9: -2490804602119107647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
