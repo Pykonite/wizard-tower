@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using PlayerInstance;
+using TMPro;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -17,7 +18,7 @@ namespace Enemies
         public Player player;
         private List<GameObject> _enemiesLeft;
         private bool _isRunning;
-
+        public TextMeshProUGUI waveCounter;
         // Temporary. Replace with hook from tutorial.
         private void Start()
         {
@@ -26,6 +27,7 @@ namespace Enemies
 
         private void SpawnEnemies()
         {
+            waveCounter.text = "Wave: " + player.round;
             for ( var i = 0; i < _groups; i++ )
             {
                 var pos = new Vector2(0, 0);
@@ -48,6 +50,8 @@ namespace Enemies
                         pos.x = Random.Range(-boundsRadius, boundsRadius);
                         break;
                 }
+
+                pos += Vector2.one * Random.Range(0, 3);
                 var placed = new Vector2[GroupSize()];
                 var objects = new GameObject[placed.Length];
                 Debug.Log(placed .Length);

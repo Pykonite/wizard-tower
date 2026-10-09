@@ -38,4 +38,10 @@ public class Realter : MonoBehaviour
         animator.enabled = false;
         Text2.SetActive(true);
     }
+
+    public void Finished()
+    {
+        Text2.SetActive(false);
+        Destroy(gameObject);
+    }
 }
