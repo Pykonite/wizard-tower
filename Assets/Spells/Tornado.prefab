@@ -108,8 +108,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
   life: 3
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   damage: 60
 =======
+=======
+>>>>>>> Stashed changes
   instDamage: 0
   tickDamage: 30
   spellType: 1
@@ -177,4 +180,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

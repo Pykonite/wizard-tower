@@ -109,8 +109,12 @@ MonoBehaviour:
   transform: {fileID: 7544884857318967302}
   speed: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   health: 5
   damage: 1
+=======
+  health: 100
+>>>>>>> Stashed changes
 =======
   health: 100
 >>>>>>> Stashed changes
