@@ -1126,6 +1126,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Cast Spell
       m_Flags: 0
+    - m_Name: 
+      m_Id: 74153b12-80a1-42fc-b138-c528d3200bb6
+      m_Path: <HID::PowerA NSW Wired controller>/button8
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Cast Spell
+      m_Flags: 0
     m_Flags: 0
   one:
     m_Name: One
@@ -1138,6 +1146,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 79193b89-76ee-4fce-be79-e5f886f83f37
       m_Path: <Keyboard>/1
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: One
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4f138318-568a-4d65-855f-9e94f2ce0700
+      m_Path: <Joystick>/trigger
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1160,6 +1176,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Two
       m_Flags: 0
+    - m_Name: 
+      m_Id: e4af9fa8-023a-4150-b640-447ec99b5cfd
+      m_Path: <HID::PowerA NSW Wired controller>/button4
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Two
+      m_Flags: 0
     m_Flags: 0
   three:
     m_Name: Three
@@ -1172,6 +1196,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 70c6603f-fa4e-4c7d-bea3-5ec16459f356
       m_Path: <Keyboard>/3
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Three
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 83a917b1-58ce-46e0-8e7e-24f3aad619ef
+      m_Path: <HID::PowerA NSW Wired controller>/button3
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1194,6 +1226,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Four
       m_Flags: 0
+    - m_Name: 
+      m_Id: 879fe292-64b7-45ab-8f17-0a31675c5517
+      m_Path: <HID::PowerA NSW Wired controller>/button2
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Four
+      m_Flags: 0
     m_Flags: 0
   five:
     m_Name: Five
@@ -1206,6 +1246,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 7ef686dd-8d54-4f52-9c9c-92691c33b09c
       m_Path: <Keyboard>/5
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Five
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 546bb9da-5956-4b08-b507-638823e43846
+      m_Path: <HID::PowerA NSW Wired controller>/button7
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1228,6 +1276,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Up
       m_Flags: 0
+    - m_Name: 
+      m_Id: a7045513-a551-42c0-9ee4-98fcb3942200
+      m_Path: <HID::PowerA NSW Wired controller>/stick/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
     m_Flags: 0
   down:
     m_Name: Down
@@ -1245,6 +1301,14 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Down
       m_Flags: 0
+    - m_Name: 
+      m_Id: acbff773-527f-4977-baef-703886dd189e
+      m_Path: <HID::PowerA NSW Wired controller>/stick/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
     m_Flags: 0
   drop:
     m_Name: Drop
@@ -1257,6 +1321,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 52beb859-13ad-4586-9bbc-e38ef49b78a7
       m_Path: <Keyboard>/0
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Drop
+      m_Flags: 0
+    - m_Name: 
+      m_Id: de0f01a5-82c5-41b4-bd95-6a606cd6f2dd
+      m_Path: <HID::PowerA NSW Wired controller>/button11
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -3181,7 +3253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -847, y: 1.5900269}
+  m_AnchoredPosition: {x: -847, y: 1.5900879}
   m_SizeDelta: {x: -1767.66, y: -453.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629038519
