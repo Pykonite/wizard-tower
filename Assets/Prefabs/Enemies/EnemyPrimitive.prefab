@@ -110,8 +110,12 @@ MonoBehaviour:
   speed: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   health: 5
   damage: 1
+=======
+  health: 100
+>>>>>>> Stashed changes
 =======
   health: 100
 >>>>>>> Stashed changes
