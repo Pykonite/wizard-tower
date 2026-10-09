@@ -1265,7 +1265,7 @@ MonoBehaviour:
     m_Flags: 0
   spellone: {fileID: 6272482341089899380, guid: ef2b850f1d92d98459e21ba2b013a15b, type: 3}
   spelltwo: {fileID: 8843404486139391930, guid: 3ddb13706e70766429d9152d81ac3d8d, type: 3}
-  spellthree: {fileID: 4772980875562024667, guid: 0ab93fae691b95848affba7eafdffeb4, type: 3}
+  spellthree: {fileID: 825064464716965134, guid: 052e13180e675ba4fbacb0a9e31fcc23, type: 3}
   spellfour: {fileID: 5992551145420568266, guid: 7b24aa9ed873edd489ef9b7e67cd4a6b, type: 3}
   spellfive: {fileID: 404433428043810984, guid: 1abfbf2ddbd27ae44ad0db77a9d755bb, type: 3}
   manaBar: {fileID: 1506092126}
@@ -3181,7 +3181,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -846.99994, y: 1.5900269}
+  m_AnchoredPosition: {x: -847, y: 1.5900269}
   m_SizeDelta: {x: -1767.66, y: -453.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629038519
