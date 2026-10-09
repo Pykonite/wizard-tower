@@ -110,7 +110,8 @@ MonoBehaviour:
   instDamage: 5e+9
   tickDamage: 0
   spellType: 0
-  collider2D: {fileID: 0}
+  collider2D: {fileID: 1190045781811144822}
+  delay: 1
 --- !u!58 &1190045781811144822
 CircleCollider2D:
   m_ObjectHideFlags: 0

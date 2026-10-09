@@ -10,7 +10,7 @@ public class SpellFunction : MonoBehaviour
     private float _lifetime;
     public SpellType spellType;
     public new Collider2D collider2D;
-
+    public float delay;
     // ReSharper disable Unity.PerformanceAnalysis
     private List<Enemy> _collisions()
     {
@@ -26,8 +26,12 @@ public class SpellFunction : MonoBehaviour
         realter!.Finished();
         return list.Select(collided => collided.gameObject.GetComponent<Enemy>()).ToList();
     }
-    
+
     private void Start()
+    {
+        Invoke(nameof(Collision), delay);
+    }
+    private void Collision()
     {
         collider2D = GetComponent<Collider2D>();
         if (spellType == SpellType.Tick) return;

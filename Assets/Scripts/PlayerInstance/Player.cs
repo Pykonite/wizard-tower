@@ -10,7 +10,7 @@ namespace PlayerInstance
         public TowerHealth healthBar;
         public int health, maxHealth = 100, round;
         public string gameOverScene;
-        private void Start()
+        private void Awake()
         {
             health = maxHealth;
             round = 1;
