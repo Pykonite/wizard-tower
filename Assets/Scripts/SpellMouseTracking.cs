@@ -13,7 +13,7 @@ public class SpellMouseTracking : MonoBehaviour
 
     void Update()
     {
-
+        transform.position = GetMouseWorldPosition();
     }
 
     Vector2 GetMouseWorldPosition()
