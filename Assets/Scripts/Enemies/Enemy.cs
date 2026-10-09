@@ -6,6 +6,7 @@ namespace Enemies
     {
         public new Transform transform;
         public float speed = 1;
+        public float health = 100;
 
         void Start()
         {
@@ -15,6 +16,7 @@ namespace Enemies
         void Update()
         {
             transform.position= Vector2.MoveTowards(transform.position, Vector2.zero, speed * Time.deltaTime);
+            if (health <= 0) {Destroy(gameObject);}
         }
     }
 }
