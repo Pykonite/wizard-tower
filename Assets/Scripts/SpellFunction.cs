@@ -20,6 +20,10 @@ public class SpellFunction : MonoBehaviour
         };
         var list = new List<Collider2D>();
         collider2D.Overlap(filter, list);
+        if (list.Count != 1 || !list[0].gameObject.TryGetComponent(typeof(Realter), out var component))
+            return list.Select(collided => collided.gameObject.GetComponent<Enemy>()).ToList();
+        var realter = component as Realter;
+        realter!.Finished();
         return list.Select(collided => collided.gameObject.GetComponent<Enemy>()).ToList();
     }
     
