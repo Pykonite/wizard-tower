@@ -20,7 +20,6 @@ namespace Enemies
         // ReSharper disable Unity.PerformanceAnalysis
         void Spawn()
         {
-            Debug.Log("Spawning Enemy");
             _spawnTimer = Random.Range(spawnTimeMin, spawnTimeMax);
             var enemyObject = Instantiate(enemyTypes[Random.Range(0, enemyTypes.Count)]);
             var pos = new Vector2(0, 0);
@@ -43,7 +42,7 @@ namespace Enemies
                     pos.x = Random.Range(-boundsRadius, boundsRadius);
                     break;
             }
-            enemyObject.GetComponent<Enemy>().transform.position = new Vector2(pos.x + Enemy.Center.x, pos.y + Enemy.Center.y);
+            enemyObject.GetComponent<Enemy>().transform.position = pos;
         }
     }
 }
