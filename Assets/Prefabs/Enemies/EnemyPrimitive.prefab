@@ -82,6 +82,8 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
+  m_SortingLayerID: -276612781
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
@@ -108,8 +110,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.Enemy
   transform: {fileID: 7544884857318967302}
   speed: 1
+<<<<<<< Updated upstream
   health: 5
   damage: 1
+=======
+  health: 100
+>>>>>>> Stashed changes
 --- !u!58 &1405313658664514691
 CircleCollider2D:
   m_ObjectHideFlags: 0
