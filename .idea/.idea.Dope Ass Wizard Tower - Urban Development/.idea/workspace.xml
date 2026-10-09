@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="56164c2a-5f3d-47f4-93b0-2a243f03934f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dope Ass Wizard Tower - Urban Development/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dope Ass Wizard Tower - Urban Development/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstancer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dope Ass Wizard Tower - Urban Development.sln.DotSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
