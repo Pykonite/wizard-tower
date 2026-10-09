@@ -108,9 +108,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
   life: 3
   instDamage: 0
-  tickDamage: 30
+  tickDamage: 32
   spellType: 1
   collider2D: {fileID: 0}
+  delay: 0
 --- !u!58 &3414758993628755141
 CircleCollider2D:
   m_ObjectHideFlags: 0

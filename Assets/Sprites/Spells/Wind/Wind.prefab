@@ -164,8 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be1ef2ff8dc136b41a07875b32814656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
-  life: 3
+  life: 2
   instDamage: 0
-  tickDamage: 30
+  tickDamage: 50
   spellType: 1
   collider2D: {fileID: 0}
+  delay: 0

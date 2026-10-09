@@ -12,8 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="56164c2a-5f3d-47f4-93b0-2a243f03934f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dope Ass Wizard Tower - Urban Development/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dope Ass Wizard Tower - Urban Development/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyInstancer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CastSpells.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CastSpells.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spells/Bolt/Lightning.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spells/Bolt/Lightning.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spells/Earthquake 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spells/Earthquake 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spells/Fireball/FireBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spells/Fireball/FireBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Spells/Wind/Wind.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Spells/Wind/Wind.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UI/Fonts/IMPACTED SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Fonts/IMPACTED SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
