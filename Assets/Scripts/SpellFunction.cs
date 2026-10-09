@@ -1,5 +1,5 @@
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using Enemies;
 using UnityEngine;
 
@@ -10,7 +10,7 @@ public class SpellFunction : MonoBehaviour
     private float _lifetime;
     public SpellType spellType;
     public Rigidbody2D rb;
-    private readonly List<Enemy> _collisions = new List<Enemy>();
+    private List<Enemy> _collisions;
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.TryGetComponent(typeof(Enemy), out var appender))
@@ -38,13 +38,8 @@ public class SpellFunction : MonoBehaviour
     void Update()
     {
         _lifetime += Time.deltaTime;
-        foreach (var target in _collisions.ToList())
+        foreach (var target in _collisions)
         {
-            if (!target)
-            {
-                _collisions.Remove(target);
-                continue;
-            }
             target.health -= tickDamage;
         }
         if (_lifetime >= life)
