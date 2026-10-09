@@ -48,7 +48,7 @@ public class CastSpells : MonoBehaviour
             case 1: if (mana-1>=0) {Instantiate(spellone, transform.position, transform.rotation); TakeMana(1);} break;
             case 2: if (mana-3>=0) {Instantiate(spelltwo, transform.position, transform.rotation); TakeMana(3);} break;
             case 3: if (mana-3>=0) {Instantiate(spellthree, transform.position, transform.rotation); TakeMana(3);} break;
-            case 4: if (mana-2>=0) {Instantiate(spellfour, transform.position, transform.rotation); TakeMana(2);} break;
+            case 4: if (mana-2>=0) {Instantiate(spellfour, transform.position, transform.rotation); TakeMana(5);} break;
             case 5: if (mana-10>=0) {Instantiate(spellfive, transform.position, transform.rotation); TakeMana(10);} break;
         }
         _manaRegenTimer += Time.deltaTime;

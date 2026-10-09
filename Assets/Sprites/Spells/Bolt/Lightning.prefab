@@ -165,8 +165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireBall
   life: 1
-  instDamage: 40
-  tickDamage: 5
-  spellType: 2
+  instDamage: 55
+  tickDamage: 0
+  spellType: 0
   collider2D: {fileID: 2416175020020773322}
   delay: 0
