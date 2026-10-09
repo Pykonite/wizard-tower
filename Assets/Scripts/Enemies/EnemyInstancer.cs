@@ -49,8 +49,6 @@ namespace Enemies
                 pos *= Random.Range(1, 1.2f);
                 var placed = new Vector2[GroupSize()];
                 var objects = new GameObject[placed.Length];
-                Debug.Log(placed .Length);
-                Debug.Log(objects.Length);
                 for (var j = 0; j < objects.Length; j++)
                 {
                     var instance = EnemyType();
@@ -119,9 +117,10 @@ namespace Enemies
 
         private GameObject EnemyType()
         {
-            var evo = Mathf.CeilToInt(Random.Range(0, _evolution));
+            var evo = Mathf.CeilToInt(Random.Range(-2, _evolution));
+            if (evo < 0) evo = 0;
             if (evo >= enemyTypes.Count) evo = enemyTypes.Count - 1;
-            if (evo >= player.round / 5) evo = Mathf.FloorToInt(player.round / 5f);
+            if (evo >= player.round / 5f) evo = Mathf.FloorToInt(player.round / 5f);
             return Instantiate(enemyTypes[evo]);
         }
 
