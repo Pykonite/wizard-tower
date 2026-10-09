@@ -10,6 +10,9 @@ public class ShapeChange : MonoBehaviour
         spell = CastSpells.Spell;
         switch (spell)
         {
+            case 0:
+                Shape.sprite = null;
+                break;
             case 1:
                 Shape.sprite = one;
                 break;
