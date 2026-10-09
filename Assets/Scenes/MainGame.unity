@@ -1465,6 +1465,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910926335}
   m_CullTransparentMesh: 1
+--- !u!114 &915993365 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6656200269852340311, guid: 85aa02548bc7d6ae5babbaea20f69387, type: 3}
+  m_PrefabInstance: {fileID: 2000586238}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a172215c04e5405698a58ba588989cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInstance.Player
 --- !u!4 &946978009 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2388803007961699734, guid: 3e4d8fd65f384f64a8d2f02d91704ea2, type: 3}
@@ -2526,7 +2537,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -847.00006, y: 1.5900269}
+  m_AnchoredPosition: {x: -847, y: 1.5900269}
   m_SizeDelta: {x: -1767.66, y: -453.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1629038519
@@ -3007,6 +3018,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 7730629496764078135, guid: 85aa02548bc7d6ae5babbaea20f69387, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 915993365}
     - target: {fileID: 8938000277570368412, guid: 85aa02548bc7d6ae5babbaea20f69387, type: 3}
       propertyPath: m_Name
       value: PlayerTowerPrimitive
