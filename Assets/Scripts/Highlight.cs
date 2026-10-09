@@ -1,12 +1,17 @@
 using UnityEngine;
 public class Highlight : MonoBehaviour
 { 
-    public float Spell, Count;
+    public int spell, count;
+    private Renderer _renderer;
+
+    private void Start()
+    {
+        _renderer = GetComponent<Renderer>();
+    }
 
     void Update()
     {
-        Spell = CastSpells.Spell;
-        if (Spell == Count) {GetComponent<Renderer>().material.color = Color.blue;}
-        else {GetComponent<Renderer>().material.color = Color.white;}
+        spell = CastSpells.Spell;
+        _renderer.material.color = spell == count ? Color.blue : Color.white;
     }
 }
