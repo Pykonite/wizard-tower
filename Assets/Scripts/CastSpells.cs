@@ -11,6 +11,7 @@ public class CastSpells : MonoBehaviour
     public float manaRegenInterval;
     void Start()
     {
+        Spell = 0;
         castSpellAction.Enable();
         one.Enable();
         two.Enable();

@@ -17,7 +17,6 @@ namespace PlayerInstance
             health = maxHealth;
             round = 0;
             healthbar.SetMaxHealth(maxHealth);
-            GetComponent<Transform>().position = Vector3.zero;
         }
 
         private void OnTriggerEnter2D(Collider2D other)
