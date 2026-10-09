@@ -19,8 +19,9 @@ namespace PlayerInstance
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (!other.gameObject.TryGetComponent(typeof(Enemy), out _)) return;
-            TakeDamage(10);
+            if (!other.gameObject.TryGetComponent(typeof(Enemy), out var component)) return;
+            var enemy = component as Enemy;
+            TakeDamage(Mathf.CeilToInt(enemy!.health));
             Destroy(other.gameObject);
             if (health <= 0) SceneManager.LoadScene(gameOverScene);
         }
