@@ -503,7 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4824bd0813902c111bfdf7316cba3dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  mainGameScene: EnemyPreview
+  mainGameScene: MainGame
 --- !u!114 &1750562537
 MonoBehaviour:
   m_ObjectHideFlags: 0
